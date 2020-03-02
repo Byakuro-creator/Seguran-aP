@@ -49,10 +49,26 @@ q:before, q:after {
 
 .container-sm{
   background-color: white;
-  width: 30%;
+  width: 40%;
   margin-top: 12%;
+  border: rgba(138, 130, 130, 0.664) solid 2px;
+  border-radius: 20px;
 }
 
 .form-control{
 	background-color:#f2f2f2;
+}
+
+.container-sm img{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 2%;
+}
+.container-sm form{
+	width: 70%;
+	margin-left: 15%;
+}
+
+.card{
+	border: none;
 }
